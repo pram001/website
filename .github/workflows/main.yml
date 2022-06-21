@@ -30,7 +30,7 @@ jobs:
       if: success()
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
-        #github_token: ${{ secrets.SECRET_TOKEN }}
+        github_token: ${{ secrets.SECRET_TOKEN }}
         # Set a target branch for deployment.
         publish_branch: master
         publish_dir: docs
